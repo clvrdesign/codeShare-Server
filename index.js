@@ -11,10 +11,7 @@ app.use(cors())
 app.use(express.json());
 
 // routes
-app.use("/posts", postRoute);
-// app.use("/", (req, res)=>{
-//     res.send("Hello from server");
-// });
+app.use("/", postRoute);
 
 
 // database connection
